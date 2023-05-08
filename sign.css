@@ -1,0 +1,129 @@
+
+
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins'serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+   width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/vijay23.jpg);
+    background-size: cover;
+    background-position: center;
+    padding :10px 8%;
+    position: relative;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width :100px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: rgb(224, 3, 3);
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 132px;
+    border-radius :4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.header-content{
+    position: absolute;
+    top: 100px;
+    left:450px ;
+    
+    text-align: center;
+    margin-top: 100px;
+     
+}
+
+
+.signin {
+    background:rgba(210, 31, 31, 0);
+   border: 5px solid #ffffff;
+width: 500px;
+padding:50px ;
+
+}
+
+.signin h1{
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+line-height: 70px;
+font-weight: 600;
+max-width: 650px;
+padding-bottom: 23px;
+color: rgba(241, 241, 241, 0.812);
+}
+ .signin input{
+   width: 200px;
+    height: 5vh;
+ border: 1px ;
+
+ }
+.signin button{
+    background: #db0000;
+    color: #fdfdfd;
+    font:16px;
+    cursor: pointer;
+   width: 200px;
+    height: 5vh;
+     border: 2px solid black;
+   
+}
+
+
+
+/*----------------sign up----------------*/
+
+
+.signup {
+    background:transparent;
+   border: 5px solid #ffffff;
+width: 500px;
+padding:50px ;
+
+}
+
+.signup h1{
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+line-height: 70px;
+font-weight: 600;
+max-width: 650px;
+padding-bottom: 23px;
+}
+ .signup input{
+   width: 300px;
+    height: 5vh;
+ border: 2px  black;
+
+ }
+.signup button{
+    background: #db0000;
+    color: #fdfdfd;
+    font:16px;
+    cursor: pointer;
+   width: 300px;
+    height: 5vh;
+     border: 1px solid rgb(0, 0, 0);
+   
+}
+

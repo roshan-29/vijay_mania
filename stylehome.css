@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Popins',sans-serif;
+ 
+
+}
+
+
+.image{
+    height: 777px;
+width: 110%;
+    filter: blur(10px);
+    position: fixed;
+}
+
+
+.side-nav{
+    width: 240px;
+    height: 100%;
+    background:#dd1c39;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px 30px;
+}
+.logo{
+    display: block;
+   
+}
+.logo-img{
+    width: 150px;
+   
+}
+.logo-icon{
+    display: none;
+    width: 45px;
+
+}
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+
+.nav-links li{
+    padding: 10px 0;
+}
+
+.nav-links li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 14px;
+display: inline-flex;
+align-items: center;
+}
+
+.nav-links li a img{
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+
+.active{
+
+    background: rgb(253, 253, 255);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    left:0;
+    top: 2.6%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    display: none;
+    transition: top 0.5s;
+}
+
+.nav-links li:hover a{
+
+    color: rgb(27, 244, 3);
+    transition: 0.3s;
+font-weight: 900;
+}
+.nav-links li:hover ~ .active{
+    display: block;
+
+}
+.nav-links li:nth-child(1):hover ~ .active{
+top:2.6%;
+}
+
+.nav-links li:nth-child(2):hover ~ .active{
+top:21.6%;
+}
+
+.nav-links li:nth-child(3):hover ~ .active{
+top:41.6%;
+}
+
+.nav-links li:nth-child(4):hover ~.active{
+top:60.6%;
+}
+
+.nav-links li:nth-child(5):hover ~.active{
+top:80.6%;
+}
+
+@media only screen and (max-width: 600px){
+    .side-nav{
+        width: 140px;
+
+    }
+    .logo-icon{
+        display: block;
+
+    }
+    .logo-img{
+        display: none;
+    }
+    .nav-links li a p{
+        display: none;
+    }
+    .nav-links li a img{
+        margin-right: 0;
+    }
+     
+}
+
+.text{
+    position: relative;
+    padding-left: 150%;
+    margin-left: 450px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+transform: rotateX('8dg');
+}
+
+.text:hover{
+  color: rgb(74, 74, 23);
+  transition: all 0.6s;
+}
